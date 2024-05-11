@@ -1,3 +1,3 @@
 # Portfolio Webpage
-A webpage portfolio of my work.
+A webpage portfolio of my work. <br>
 Developed from a template by Kevin Powell.
