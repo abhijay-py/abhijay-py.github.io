@@ -42,6 +42,7 @@
             <img src="img/cpu.jpg" alt="" class="intro__img">
         </section>
 
+         <!-- Description -->
         <div class="portfolio-item-individual">            
             <div class="about-me__body">
                 <!-- Remove When Finished -->
@@ -49,14 +50,15 @@
                 <p>This project is an implementation of a RISC-V processor that handles most RV321 Base Integer Instructions using SystemVerilog.</p>
                 <p>All RV321 Base Integer Instructions listed <a href="https://www.cs.sfu.ca/~ashriram/Courses/CS295/assets/notebooks/RISCV/RISCV_CARD.pdf">here</a> were implemented apart from the unsigned operations and the enviornment instructions. 
                     The RTL Diagrams for each part were drawn up before the system was implemented.</p>
-                <p>This processor operates by manually entering the machine code of RISC-V assembly instructions manually into the instruction memory in the SystemVerilog files and then allowing the processor to run through the instructions. 
-                    Structures such as the instruction memory and data were simplified down to store 256 Bytes each instead of the roughly 4GB they can normally store to simplify coding and processing. Any attempt to access memory outside these bounds will 
-                    result in a zero being returned. Also, overflow errors and other errors will not be handled (assume all instructions will run perfectly).</p>
+                <p>This processor operates by manually entering the machine code of RISC-V assembly instructions manually into the instruction memory in the SystemVerilog files and then allowing the processor to run through the instructions. </p>
+                <p>Structures such as the instruction memory and data were simplified down to store 256 Bytes each instead of the roughly 4GB they can normally store to simplify coding and processing. Any attempt to access memory outside these bounds will 
+                    result in a zero being returned. Also, overflow errors and other errors will not be handled (it assume all instructions will run perfectly).</p>
                 <p>Top Level RTL Diagram:</p>
                 <img src="img/rtl.png" alt="" class="intro__img">
-                <p>The source code and full RTL Diagram can be found <a href="https://github.com/abhijay-py/RV321-processor/">here</a>.</p>
+                <p>The source code and full RTL Diagrams can be found <a href="https://github.com/abhijay-py/RV321-processor/">here</a>.</p>
                 <p>To view other pages, use the drop down menu in the top right!</p>
                 <p><a href="projects.html">Back</a></p>
+            </div>
         </div>
 
         
