@@ -48,7 +48,7 @@
                 <p>The game gives options to play against another player or AIs of various difficulty. Logs are also maintained for error patching and game records.</p>
                 <p>The difficulty of the AI varies from easy and medium, to hard and expert. The easy AI chooses its moves randomly, the medium AI uses a greedy algorithm, 
                     the hard algorithm uses a <a href="https://en.wikipedia.org/wiki/Minimax" target="_blank" rel="noopener noreferrer">minimax algorithm</a> with depth 2, 
-                    and the expert algorithm uses a minimax algorithm varying from depth 2 to 5 based on the gamestate.</p>
+                    and the expert algorithm uses a minimax algorithm with depth 5 and <a href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning" target="_blank" rel="noopener noreferrer">alpha-beta pruning</a> to reduce computation time.</p>
                 <p>Gameplay View:</p>
                 <img src="img/othello_gameplay.png" alt="" class="intro__img">
                 <p>The source code can be found <a href="https://github.com/abhijay-py/othello" target="_blank" rel="noopener noreferrer">here</a>, along with a zipfile that can be downloaded to play the game!</p>
