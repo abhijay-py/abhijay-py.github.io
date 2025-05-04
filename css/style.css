@@ -241,6 +241,15 @@ header {
     box-shadow: var(--bs);
 }
 
+.usb_img {
+    box-shadow: var(--bs);
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section__subtitle--intro {
     display: inline-block;
 }
