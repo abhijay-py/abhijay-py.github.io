@@ -5,7 +5,7 @@
 }
 
 /* Custom Properties, update these for your own design */
-
+a:visited { color:blue; } 
 :root {
     --ff-secondary: 'Tahoma', sans-serif;
     --ff-primary: 'Courier New', monospace;
