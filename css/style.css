@@ -5,7 +5,6 @@
 }
 
 /* Custom Properties, update these for your own design */
-a:visited { color:blue; } 
 :root {
     --ff-secondary: 'Tahoma', sans-serif;
     --ff-primary: 'Courier New', monospace;
@@ -341,9 +340,14 @@ header {
 
 
 .portfolio-item-individual {
+    
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.portfolio-item-individual a:visited {
+    color:blue;
 }
 
 .portfolio-item-individual p {
